@@ -3,7 +3,7 @@ body {
 }
 
 h4 {
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
 
 .jumbotron {
@@ -13,23 +13,14 @@ h4 {
 }
 
 input[type=text] {
-    width: 250px;
-    border-ratio: 25px;
-   box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 15px;
-    background-color: white;
-
-
-   padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 1s ease-in-out;
-}
-
-/* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
-    width: 100%;
+  width: 250px;
+  border-ratio: 25px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: white;
+  padding: 12px 12px 12px 12px;
 }
 
 .btn {
@@ -37,18 +28,19 @@ input[type=text]:focus {
 }
 
 #output {
-  padding-top: 30px;
+  padding: 30px 10px 0 10px;
   list-style-type: none;
 }
 
-li  {
-   border: 1px solid;
-  padding: 5px 0 5px 0;
+li {
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 5px 5px 5px 5px;
   margin: 3px 2px 3px 2px;
+  box-shadow: 3px 5px #888888;
 }
 
 li a {
   font-weight: bold;
   font-size: 20px;
 }
-
